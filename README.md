@@ -10,7 +10,7 @@ Results and models are available in the.
 
 |                    | mobilenetv2   | shufflenetv2  | 
 |--------------------|:-------------:|:-------------:|
-| ThunderNet         | ✓             | ✓             | 
+| ThunderNet         | ✓             |               | 
 
 
 
