@@ -32,7 +32,7 @@ model = dict(
         type='StandardRoIHead',
         bbox_roi_extractor=dict(
             type='SingleRoIExtractor',
-            roi_layer=dict(type='PSRoIAlign', output_size=7, sampling_ratio=0),
+            roi_layer=dict(type='PSRoIAlign', output_size=(7,7), sampling_ratio=2),
             out_channels=5,
             featmap_strides=[16]),
         bbox_head=dict(
